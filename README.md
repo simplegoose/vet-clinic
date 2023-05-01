@@ -27,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [PSQL] <a name="about-project"></a>
+# 📖 [Vet Clinic] <a name="about-project"></a>
 
-**[PSQL]** is a Postgre SQL project with queries of doing CRUD operations using Postgre CLI.
+**[Vet Clinic]** is a Postgre SQL project with queries of doing CRUD operations using Postgre CLI.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -104,16 +104,8 @@ Example command:
 ```sh
   psql -u username
 ```
--
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Schema Diagram -->
-
-## Schema Diagram <a name="schema-diagram"></a>
-
-![Schema Diagram](./schema.png)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
