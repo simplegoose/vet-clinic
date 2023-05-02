@@ -8,7 +8,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -22,14 +21,13 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [PSQL] <a name="about-project"></a>
+# 📖 [Vet Clinic] <a name="about-project"></a>
 
-**[PSQL]** is a Postgre SQL project with queries of doing CRUD operations using Postgre CLI.
+**[Vet Clinic]** is a Postgre SQL project with queries of doing CRUD operations using Postgre CLI.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,14 +64,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- Coming soon!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -104,16 +94,6 @@ Example command:
 ```sh
   psql -u username
 ```
--
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Schema Diagram -->
-
-## Schema Diagram <a name="schema-diagram"></a>
-
-![Schema Diagram](./schema.png)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
