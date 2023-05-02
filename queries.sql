@@ -15,35 +15,56 @@ SELECT * FROM animals WHERE WEIGHT_KG BETWEEN 10.4 AND 17.3;
 BEGIN;
 
 UPDATE animals SET SPECIES='unspecified';
+SELECT * FROM animals;
 
 ROLLBACK;
+
+SELECT * FROM animals;
 
 BEGIN;
 
 UPDATE animals SET SPECIES='digimon' WHERE name LIKE '%mon';
 UPDATE animals SET SPECIES='pokemon' WHERE species IS NULL;
+SELECT * FROM animals;
 
 COMMIT;
+
+SELECT * FROM animals;
 
 BEGIN;
 
 DELETE FROM animals;
+SELECT * FROM animals;
 
 ROLLBACK;
+
+SELECT * FROM animals;
 
 BEGIN;
 
 DELETE FROM animals WHERE dob > '2022-01-01';
 
+SELECT * FROM animals;
+
 SAVEPOINT del_jan_2022;
+
+SELECT * FROM animals;
 
 UPDATE animals SET weight_kg=weight_kg * -1;
 
+SELECT * FROM animals;
+
 ROLLBACK TO del_jan_2022;
+
+SELECT * FROM animals;
 
 UPDATE animals SET weight_kg=weight_kg * -1 WHERE sign(weight_kg) < 1;
 
+SELECT * FROM animals;
+
 COMMIT;
+
+SELECT * FROM animals;
 
 SELECT COUNT(*) as total_number FROM animals;
 SELECT COUNT(*) as never_tried_to_escape FROM animals WHERE escape_attempts < 1;
